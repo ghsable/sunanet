@@ -1,7 +1,7 @@
 # sunanet
 [sunanet](https://ghsable.github.io/sunanet/) is my Network.
 
-## Built with ...
+## Created with ...
 - [Quartz](https://quartz.jzhao.xyz/)
 
 ## Archives
