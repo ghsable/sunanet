@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Hi 🙋‍, I’m suna
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+I 💛 Open Source. I love Linux and Culture.
