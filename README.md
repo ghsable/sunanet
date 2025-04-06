@@ -8,4 +8,4 @@
 - [sunatter](https://github.com/ghsable/sunatter)
 
 ## License
-[![CC BY-NC-SA 4.0](https://raw.githubusercontent.com/ghsable/sunanet/main/.license/by-nc-sa.eu.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![CC BY-NC-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
