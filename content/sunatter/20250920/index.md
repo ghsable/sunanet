@@ -1,5 +1,5 @@
 ---
-title: GEARAspiWDM.sysを削除してコア分離を有効にする方法
+title: GEARAspiWDM.sysを削除してコア分離を有効にする
 date: "2025-09-20"
 ---
 # `GEARAspiWDM.sys`？
@@ -62,4 +62,4 @@ sc delete GEARAspiWDM
 [コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) を有効にします。その後は再起動をします。
 - `設定 > プライバシーとセキュリティ > Windows セキュリティ > デバイス セキュリティ > コア分離 > オン`
 
-[ゴールの定義](#ゴールの定義) の通りになっていれば完了です。お疲れ様でした。
+[ゴールの定義](#ゴールの定義) の通りになっていれば成功です。お疲れ様でした。
