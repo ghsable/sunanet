@@ -3,7 +3,7 @@ title: GEARAspiWDM.sysを削除してコア分離を有効にする
 date: "2025-09-20"
 ---
 # `GEARAspiWDM.sys`？
-[Windows](https://microsoft.com/ja-jp/windows/) におけるディスクドライブのドライバです。比較的古めのソフトウェアと依存関係にあるようです。
+[Windows](https://microsoft.com/ja-jp/windows/) におけるディスクドライブのドライバです。古めのソフトウェアと依存関係にあるようです。
 
 例えば [Studio One 4 Artist OEM](https://my.presonus.com/products/detail/590) をインストールすると`GEARAspiWDM.sys`も一緒にインストールされます。
 
@@ -39,9 +39,9 @@ date: "2025-09-20"
 - `デバイス マネージャー > DVD/CD-ROM ドライブ > あなたのディスクドライブ名 > デバイスの状態`が`このデバイスは正常に動作しています。`になっている。
 - `デバイス マネージャー > DVD/CD-ROM ドライブ > あなたのディスクドライブ名 > ドライバー > ドライバーの詳細 > ドライバー ファイル(D)`が`C:\Windows\System32\drivers\cdrom.sys`になっている。
 
-`cdrom.sys`は [Windows](https://microsoft.com/ja-jp/windows/) の標準ドライバで [コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) の影響を受けません。本記事ではこの標準状態をゴールとします。
+`cdrom.sys`は [Windows](https://microsoft.com/ja-jp/windows/) の標準ドライバで [コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) と競合しません。本記事ではこの標準状態をゴールとします。
 
-# `GEARAspiWDM.sys`を削除してコア分離を有効にする方法
+# `GEARAspiWDM.sys`を削除してコア分離を有効にする（要管理者権限）
 サービスから削除します。（サービスが実行されていない又は登録されていない場合は手順をスキップしてください。）
 ```cmd
 sc stop GEARAspiWDM
