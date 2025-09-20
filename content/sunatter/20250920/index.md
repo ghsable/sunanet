@@ -28,7 +28,7 @@ date: "2025-09-20"
 1. [コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) を進める。（`GEARAspiWDM.sys`を削除する。）
 2. [コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) を諦める。（`GEARAspiWDM.sys`を削除しない。）
 
-以降は 1 の（[コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) を諦めたくない）方向けの内容になります。②の方はお疲れ様でした。
+以降は 1 の（[コア分離](https://support.microsoft.com/ja-jp/windows/windows-セキュリティ-アプリのデバイス-セキュリティ-afa11526-de57-b1c5-599f-3a4c6a61c5e2#bkmk_coreisolation) を諦めたくない）方向けの内容になります。2 の方はお疲れ様でした。
 
 # 方針を決める（補足）
 `GEARAspiWDM.sys`と依存関係にあるソフトウェアを使わないのが一番楽です。丸ごとアンインストールしちゃいましょう。
