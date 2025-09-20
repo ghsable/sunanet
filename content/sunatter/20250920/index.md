@@ -3,7 +3,7 @@ title: GEARAspiWDM.sysを削除してコア分離を有効にする
 date: "2025-09-20"
 ---
 # `GEARAspiWDM.sys`？
-[Windows](https://microsoft.com/ja-jp/windows/) におけるディスクドライブのドライバです。古めのソフトウェアと依存関係にあるようです。
+[Windows](https://microsoft.com/ja-jp/windows/) におけるディスクドライブのドライバです。比較的古めのソフトウェアと依存関係にあるようです。
 
 例えば [Studio One 4 Artist OEM](https://my.presonus.com/products/detail/590) をインストールすると`GEARAspiWDM.sys`も一緒にインストールされます。
 
