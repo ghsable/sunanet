@@ -55,7 +55,7 @@ date: "2025-09-24"
 # ついでに
 確証が得にくい話ですが、副次的な効果としてマウス操作のカクつき（途切れ）が減った気がします。他の方でも同様の報告を目にしました。（[参考文献](#参考文献)）
 
-原因不明でマウス操作が安定しない方は`LogTransport2.exe`が悪さをしている可能性があります。どのような繋がりがあるのかは不明ですが試す価値はありそうです。
+原因不明でマウス操作が安定しない時は`LogTransport2.exe`が悪さをしている可能性があります。どのような繋がりがあるのかは不明ですが試す価値はありそうです。
 
 # 参考文献
 - [Fix Logtransport2 Error on Shutdown in Windows 10](https://www.tecklyfe.com/fix-logtransport2-error-on-shutdown-in-windows-10/)
