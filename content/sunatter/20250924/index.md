@@ -41,9 +41,9 @@ date: "2025-09-24"
 - `HKEY_CURRENT_USER\Software\Adobe\CommonFiles\UsageCC`
 
 ## 実行ファイルをリネームする（確実）
-実は前述の手段では [Adobe](https://www.adobe.com/) 製品を起動していない状態では作用しますが、起動した状態でシャットダウンをするとエラーが再発します。
+実は前述の手段では [Adobe](https://www.adobe.com/) 製品を起動していない状態において作用する場合がありますが、起動した状態でシャットダウンをするとエラーが再発します。
 
-`LogTransport2.exe`のファイル名を変えて直接呼び出せないようするのが確実です。
+`LogTransport2.exe`のファイル名を変えて直接呼び出せないようにするのが確実です。
 
 [Adobe Acrobat](https://www.adobe.com/jp/acrobat.html)（32bit版）以外の方は適宜パスを読み替えてください。
 - `C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\LogTransport2.exe -> LogTransport2.exe.bak`（[補足1](#補足1)）
