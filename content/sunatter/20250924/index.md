@@ -17,7 +17,7 @@ date: "2025-09-24"
     　×　The application was unable to start correctly (0xc0000142). Click OK to close the application.
     ```
 
-普通にシャットダウンはできますが毎回出てくるのも邪魔なので解決していきます。
+普通にシャットダウンはできますが毎回出てくるのも鬱陶しいので解決していきます。
 
 # `LogTransport2.exe`？
 [Adobe](https://www.adobe.com/) に使用状況などのログを送信するためのプログラムのようです。[Adobe](https://www.adobe.com/) 製品を起動していなくても`LogTransport2.exe`だけは（何故か）起動されます。
