@@ -6,16 +6,16 @@ date: "2025-09-24"
 [Windows](https://www.microsoft.com/ja-jp/windows) シャットダウン時に`LogTransport2.exe`からアプリケーションエラーが発生します。
 
 - 日本語
-```text
-LogTransport2.exe - Application Error
-　×　アプリケーションを正しく終了できませんでした（0xc0000142）。[OK]をクリックしてアプリケーションを閉じてください。
-```
+    ```text
+    LogTransport2.exe - Application Error
+    　×　アプリケーションを正しく終了できませんでした（0xc0000142）。[OK]をクリックしてアプリケーションを閉じてください。
+    ```
 
 - 英語
-```text
-LogTransport2.exe - Application Error
-　×　The application was unable to start correctly (0xc0000142). Click OK to close the application.
-```
+    ```text
+    LogTransport2.exe - Application Error
+    　×　The application was unable to start correctly (0xc0000142). Click OK to close the application.
+    ```
 
 普通にシャットダウンはできますが毎回出てくるのも邪魔なので解決していきます。
 
